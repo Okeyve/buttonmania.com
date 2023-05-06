@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Manga</title>
-    <style>
-      body {
-        background-color: black;
-      }
-      #myImage {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
-      }
-    </style>
-  </head>
-  <body>
-    <img id="myImage" src="https://github.com/Okeyve/meusitemuitobom/blob/main/manga/manga.png" onclick="playAudio()">
-    <audio id="myAudio" src="https://github.com/Okeyve/meusitemuitobom/blob/main/manga/owwn-ze-da-manga.mp3"></audio>
-    <script>
-      function playAudio() {
-        var audio = document.getElementById('myAudio');
-        audio.loop = true;
-        audio.play();
-      }
-    </script>
-  </body>
+<head>
+	<title>Meu Site</title>
+	<style>
+		body {
+			background-color: black;
+		}
+
+		#myImage {
+			display: block;
+			margin: 0 auto;
+			width: 50%;
+			height: auto;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<img id="myImage" src="https://github.com/Okeyve/meusitemuitobom/blob/main/manga/manga.png" onclick="playSound()" alt="Imagem">
+	<audio id="myAudio" src="https://github.com/Okeyve/meusitemuitobom/blob/main/manga/owwn-ze-da-manga.mp3"></audio>
+	<script>
+		function playSound() {
+			document.getElementById('myAudio').play();
+		}
+	</script>
+</body>
 </html>
