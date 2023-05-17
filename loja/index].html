@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Loja</title>
+  <style>
+    /* Estilos CSS */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+    body {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      position: relative;
+      width: 400px;
+      height: 430px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .circle {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #ff0000; /* cor de exemplo, substitua pela cor desejada */
+    }
+
+    .text {
+      position: absolute;
+      top: 24px;
+      left: 50px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .image-container img {
+      max-width: 80%;
+      max-height: 100%;
+      border-radius: 50px;
+    }
+
+.button {
+  padding: 10px 20px;
+  background-color: #32CD32; /* cor verde de exemplo, substitua pela cor desejada */
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #008000; /* verde mais escuro de exemplo, substitua pela cor desejada no hover */
+  transform: scale(1.05); /* faz o botão crescer um pouco ao passar o mouse */
+}
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <ul class="grid">
+    <li class="item">
+      <div class="container">
+        <div class="circle"></div>
+        <div class="text">The Rock Amogus</div>
+        <div class="image-container">
+          <img src="https://down-br.img.susercontent.com/file/55483e1d0454a0336d409739f24bf6fe" alt="Imagem 1" />
+        </div>
+        <a class="button" href="https://shopee.com.br/Boneco-Among-Us-Brinquedo-The-Rock-Meme-Impostor-Jogo-i.307802963.21830962951?sp_atk=c377f290-371d-4925-b4e8-89e578c44e6d&amp;xptdk=c377f290-371d-4925-b4e8-89e578c44e6d" target="_blank">Compar</a>
+      </div>
+    </li>
+    <!-- Adicione mais 8 itens de lista para completar a grade 3x3 -->
+    <li class="item">
+      <div class="container">
+        <div class="circle"></div>
+        <div class="text">Caneca bem Educativa</div>
+        <div class="image-container">
+          <img src="https://diferencialprint.vteximg.com.br/arquivos/ids/166149-1000-1000/Caneca-Branca-Site.png?v=637865785956900000" alt="Imagem 2" />
+        </div>
+        <a class="button" href="https://shopee.com.br/Caneca-Flork-Meme-Vai-Toma-No-Cu-Caf%C3%A9-Humor-e-Zoeira-i.290585375.19371728699?sp_atk=4599cd45-4e0f-4aa9-8494-70325e452a36&xptdk=4599cd45-4e0f-4aa9-8494-70325e452a36" target="_blank">Comprar</a>
+      </div>
+    </li>
+    <li class="item">
+      <div class="container">
+        <div class="circle"></div>
+        <div class="text">Capacete para Galinha</div>
+        <div class="image-container">
+          <img src="https://cf.shopee.com.br/file/b9330979ac13b5359c5d5cb15a3be379" alt="Imagem 3" />
+        </div>
+        <a class="button" href="https://shopee.com.br/Capacete-De-Galinha-Para-Animais-De-Estima%C3%A7%C3%A3o-Pequenos-Chap%C3%A9u-Resistente-Com-Pet-i.730678350.14285062201?sp_atk=de521f44-ade7-4b48-b2f6-3686b077aa0b&xptdk=de521f44-ade7-4b48-b2f6-3686b077aa0b" target="_blank">Comprar</a>
+      </div>
+    </li>
+    <!-- Adicione mais 6 itens de lista para completar a grade 3x3 -->
+  </ul>
+</body>
+</html>
